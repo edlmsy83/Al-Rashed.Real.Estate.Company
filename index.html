@@ -29,7 +29,7 @@ html, body {
   transition:opacity 1s ease;
 }
 #loader.out { opacity:0; pointer-events:none; }
-.ld-logo { height:60px; object-fit:contain; opacity:0; animation:fUp .8s .3s forwards; }
+.ld-logo { height:90px; object-fit:contain; opacity:0; animation:fUp .8s .3s forwards; }
 .ld-bar  { width:200px; height:1px; background:rgba(255,255,255,.08); overflow:hidden; opacity:0; animation:fUp .8s .6s forwards; }
 .ld-fill { height:100%; background:linear-gradient(to left,#c8a45a,#e8c97a); width:0; animation:fillW 2.2s 1s ease forwards; }
 .ld-txt  { font-size:.7rem; letter-spacing:5px; color:rgba(255,255,255,.28); opacity:0; animation:fUp .8s .9s forwards; }
@@ -103,7 +103,7 @@ html, body {
   display:flex; align-items:center; justify-content:space-between;
   flex-shrink:0;
 }
-.ph img { height:54px; object-fit:contain; opacity:.92; }
+.ph img { height:70px; object-fit:contain; opacity:.92; }
 .ph-num { font-size:.75rem; letter-spacing:3px; color:rgba(255,255,255,.3); }
 .ph-num b { color:rgba(255,255,255,.8); font-weight:700; font-size:.9rem; }
 
@@ -250,8 +250,8 @@ body.hero-mode #panel-side { display:none; }
 .hero-ov .st:last-child { border:none; }
 .hero-ov .st-n   { font-size:2.4rem; }
 
-.hero-logo { position:absolute; top:32px; right:48px; height:56px; object-fit:contain; opacity:.9; z-index:6; }
-.hero-cnt  { position:absolute; top:40px; left:48px; font-size:.7rem; letter-spacing:3px; color:rgba(255,255,255,.3); z-index:6; }
+.hero-logo { position:absolute; top:36px; right:48px; height:85px; object-fit:contain; opacity:.9; z-index:6; }
+.hero-cnt  { position:absolute; top:48px; left:48px; font-size:.7rem; letter-spacing:3px; color:rgba(255,255,255,.3); z-index:6; }
 .hero-cnt b { color:rgba(255,255,255,.7); font-size:.85rem; }
 
 #curt { position:fixed; inset:0; z-index:400; background:#000; opacity:0; pointer-events:none; transition:opacity .2s ease; }
@@ -276,8 +276,8 @@ body.hero-mode #panel-side { display:none; }
 
 /* 2. تنسيق مخصص للشريحة الأولى (البطلة) على الجوال */
 @media(max-width: 600px){
-  .hero-logo { height: 32px; top: 16px; right: 16px; }
-  .hero-cnt { top: 22px; left: 16px; }
+  .hero-logo { height: 55px; top: 16px; right: 16px; }
+  .hero-cnt { top: 28px; left: 16px; }
   
   /* توسيط المحتوى بدلاً من جعله في الأسفل */
   .hero-ov { justify-content: center; padding: 20px; }
@@ -310,7 +310,7 @@ body.hero-mode #panel-side { display:none; }
 <body>
 
 <div id="loader">
-  <img class="ld-logo" src="https://iili.io/qBzNvt9.png" alt="AlRashid">
+  <img class="ld-logo" src="https://i.imgur.com/ny6IvzJ.png" alt="AlRashid">
   <div class="ld-bar"><div class="ld-fill"></div></div>
   <div class="ld-txt">جاري تحميل العرض</div>
 </div>
@@ -324,8 +324,8 @@ body.hero-mode #panel-side { display:none; }
   <div id="img-side">
     <canvas id="shimmer-canvas"></canvas>
     <img class="simg on" data-i="0"  src="https://iili.io/qBzuroF.jpg"  alt="">
-    <img class="simg"    data-i="1"  src="https://iili.io/qBzu8AB.jpg"  alt="">
-    <img class="simg"    data-i="2"  src="https://iili.io/qBzuv9V.jpg"  alt="">
+    <img class="simg"    data-i="1"  src="https://i.imgur.com/XL9go0U.jpeg"  alt="">
+    <img class="simg"    data-i="2"  src="https://i.imgur.com/qBzDEaX.jpeg"  alt="">
     <img class="simg"    data-i="3"  src="https://iili.io/qBzuUt1.jpg"  alt="">
     <img class="simg"    data-i="4"  src="https://iili.io/qBzuiKJ.jpg"  alt="">
     <img class="simg"    data-i="5"  src="https://iili.io/qBzuZ9p.jpg"  alt="">
@@ -335,11 +335,11 @@ body.hero-mode #panel-side { display:none; }
     <img class="simg"    data-i="9"  src="https://iili.io/qBzupoX.jpg"  alt="">
     <img class="simg"    data-i="10" src="https://iili.io/qBzAJKG.jpg"  alt="">
     <img class="simg"    data-i="11" src="https://iili.io/qBzAdlf.jpg"  alt="">
-    <img class="simg"    data-i="12" src="https://iili.io/qBzAKR2.jpg"  alt="">
-    <img class="simg"    data-i="13" src="https://iili.io/qBzAqD7.jpg"  alt="">
+    <img class="simg"    data-i="12" src="https://i.imgur.com/S5HL9It.jpeg"  alt="">
+    <img class="simg"    data-i="13" src="https://i.imgur.com/Ifpoz3M.jpeg"  alt="">
 
     <div class="hero-ov show" id="heroOv">
-      <img class="hero-logo" src="https://iili.io/qBzNvt9.png" alt="">
+      <img class="hero-logo" src="https://i.imgur.com/ny6IvzJ.png" alt="">
       <div class="hero-cnt"><b id="hN">01</b> / 14</div>
       <div class="p-tag"   id="hTag"></div>
       <div class="p-ttl"   id="hTtl"></div>
@@ -351,7 +351,7 @@ body.hero-mode #panel-side { display:none; }
 
   <div id="panel-side">
     <div class="ph">
-      <img src="https://iili.io/qBzNvt9.png" alt="AlRashid">
+      <img src="https://i.imgur.com/ny6IvzJ.png" alt="AlRashid">
       <div class="ph-num"><b id="sNum">01</b> / 14</div>
     </div>
 
@@ -362,12 +362,12 @@ body.hero-mode #panel-side { display:none; }
       <div id="dots"></div>
       <div class="nav-wrap">
         <div style="text-align:center">
-          <button class="arr" id="btnPrev">&#8250;</button>
-          <div class="arr-lbl">السابق</div>
-        </div>
-        <div style="text-align:center">
           <button class="arr" id="btnNext">&#8249;</button>
           <div class="arr-lbl">التالي</div>
+        </div>
+        <div style="text-align:center">
+          <button class="arr" id="btnPrev">&#8250;</button>
+          <div class="arr-lbl">السابق</div>
         </div>
       </div>
       <div id="aLbl">▶ تلقائي</div>
@@ -389,7 +389,7 @@ const DATA = [
     tag:'نظرة عامة',
     ttl:'الملخص <em>التنفيذي</em>',
     sub:'مشروع سكني متكامل وفق نموذج البيع على الخارطة المعتمد من الهيئة العامة للعقار، بشراكة استراتيجية تضمن مصالح الطرفين',
-    chips:['📈 تعظيم قيمة الأرض السوقية','🛡️ تقليل المخاطر التمويلية','💰 عوائد مجزية للطرفين','🏙️ مواكبة رؤية 2030']
+    chips:['📈 رفع قيمة الأرض السوقية','🛡️ تقليل المخاطر التمويلية','💰 عوائد مجزية للطرفين','🏙️ مواكبة رؤية 2030']
   },
   {
     tag:'لماذا هذا المشروع؟',
@@ -430,7 +430,7 @@ const DATA = [
   {
     tag:'كيف نعمل معاً',
     ttl:'نموذج الشراكة <em>المقترح</em>',
-    sub:'شراكة قائمة على تعظيم العائد المشترك وتقاسم النجاح — شفافية كاملة وحماية حقوق الطرفين',
+    sub:'شراكة قائمة على رفع العائد المشترك وتقاسم النجاح — شفافية كاملة وحماية حقوق الطرفين',
     chips:['📋 الاتفاق على نوع الشراكة وقيمة الأرض','🏦 حساب ضمان مستقل ومحمي لكلا الطرفين','📊 الصرف وفق نسب الإنجاز الفعلية فقط','💹 توزيع الفائض عند تجاوز أسعار البيع']
   },
   {
@@ -455,10 +455,9 @@ const DATA = [
     tag:'ما تكسبه',
     ttl:'القيمة المضافة <em>لمالك الأرض</em>',
     sub:'خمس مزايا استراتيجية تجعل هذه الشراكة الخيار الأمثل مقارنة بأي بديل آخر',
-    chips:['📈 تعظيم قيمة الأرض مقارنة بالبيع النقدي المباشر','🛡️ الاستفادة من خبرة مطور قوي دون تحمل أعباء','🔒 حماية الحقوق عبر نظام البيع على الخارطة','🌟 شراكة في مشروع نوعي يرفع القيمة الاستثمارية','💵 عوائد إضافية في حال ارتفاع الأسعار عن المتوقع']
+    chips:['📈 رفع قيمة الأرض مقارنة بالبيع النقدي المباشر','🛡️ الاستفادة من خبرة مطور قوي دون تحمل أعباء','🔒 حماية الحقوق عبر نظام البيع على الخارطة','🌟 شراكة في مشروع نوعي يرفع القيمة الاستثمارية','💵 عوائد إضافية في حال ارتفاع الأسعار عن المتوقع']
   },
   {
-    hero:true,
     tag:'رؤيتنا',
     ttl:'نتطلع إلى<br><em>شراكة حقيقية</em>',
     sub:'تنظر الراشد العقارية لهذا المشروع باعتباره فرصة استراتيجية متميزة في موقع واعد — نحن حريصون على بناء شراكة تحقق أثراً عمرانياً واقتصادياً مستداماً',
@@ -576,8 +575,8 @@ document.getElementById('btnNext').addEventListener('click',goNext);
 document.getElementById('btnPrev').addEventListener('click',goPrev);
 
 document.addEventListener('keydown',e=>{
-  if(e.key==='ArrowLeft')  goNext();
-  if(e.key==='ArrowRight') goPrev();
+  if(e.key==='ArrowRight') goNext(); // تم عكس الأسهم كما طلبت
+  if(e.key==='ArrowLeft')  goPrev();
   if(e.key===' '){e.preventDefault();toggleAuto();}
   if(e.key==='f'||e.key==='F') document.documentElement.requestFullscreen?.();
 });
